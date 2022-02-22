@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "mongo-heroes"
+version = "0.1.0"
+description = "A backend for hero management"
+authors = ["Matthew Newland"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "^0.74.0"
+beanie = "^1.9.1"
+uvicorn = "^0.17.5"
+
+[tool.poetry.dev-dependencies]
+black = {version = "^22.1.0", allow-prereleases = true}
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
